@@ -1,0 +1,19 @@
+name: Mein erster Workflow
+
+on: push
+
+jobs:
+  sag-hallo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sag hallo
+        run: echo "Hallo von GitHub Actions! 🚀"
+
+      - name: Was läuft hier?
+        run: |
+          echo "Ich laufe auf:"
+          uname -a
+          echo "Mit User:"
+          whoami
+          echo "Datum:"
+          date

@@ -19,9 +19,7 @@ jobs:
           date
 
       - name: Lieblingsessen
-        run:
-          echo "Mein Lieblingsessen  ist Pizza"
+        run: echo "Mein Lieblingsessen ist Pizza"
 
       - name: README.md ausgeben
-        run:
-          cat READ.md
+        run: cat README.md

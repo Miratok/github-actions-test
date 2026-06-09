@@ -17,3 +17,11 @@ jobs:
           whoami
           echo "Datum:"
           date
+
+      - name: Lieblingsessen
+        run:
+          echo "Mein Lieblingsessen  ist Pizza"
+
+      - name: README.md ausgeben
+        run:
+          cat READ.md

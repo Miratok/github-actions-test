@@ -8,7 +8,10 @@ jobs:
     steps:
       - name: Sag hallo
         run: echo "Hallo von GitHub Actions! 🚀"
-
+        
+      - name: Zeig alle Dateien
+        run: ls -la
+        
       - name: Was läuft hier?
         run: |
           echo "Ich laufe auf:"
